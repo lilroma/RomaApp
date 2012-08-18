@@ -17,7 +17,7 @@ namespace RomaApp.Models
     {
         [Required]
         [DataType(DataType.Password)]
-        [Display(Name = "Current password")]
+        [Display(Name = "Current passwor")]
         public string OldPassword { get; set; }
 
         [Required]
