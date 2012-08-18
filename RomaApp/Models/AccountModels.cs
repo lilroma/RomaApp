@@ -23,7 +23,7 @@ namespace RomaApp.Models
         [Required]
         [ValidatePasswordLength]
         [DataType(DataType.Password)]
-        [Display(Name = "New password")]
+        [Display(Name = "New passwor")]
         public string NewPassword { get; set; }
 
         [DataType(DataType.Password)]
